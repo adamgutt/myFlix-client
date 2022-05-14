@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { MovieView } from '../movie-view/movie-view';
 import { MovieCard } from '../movie-card/movie-card';
+import { MovieView } from '../movie-view/movie-view';
 
 export class MainView extends React.Component {
 
@@ -12,8 +12,7 @@ export class MainView extends React.Component {
         { _id: 1, Title: 'Inception', Description: 'desc1...', ImagePath: '...' },
         { _id: 2, Title: 'The Shawshank Redemption', Description: 'desc2...', ImagePath: '...' },
         { _id: 3, Title: 'Gladiator', Description: 'desc3...', ImagePath: '...' }
-      ],
-      selectedMovie: null
+      ]
     }
   }
 
@@ -26,7 +25,6 @@ export class MainView extends React.Component {
 
   render() {
     const { movies, selectedMovie } = this.state;
-
 
     if (movies.length === 0) return <div className="main-view">The list is empty!</div>;
 
@@ -41,5 +39,6 @@ export class MainView extends React.Component {
       </div>
     );
   }
+
 
 }
