@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+
 //user registration form taking necessary user details
 export function RegistrationView(props) {
   const [username, setUsername] = useState('');
@@ -53,3 +54,7 @@ export function RegistrationView(props) {
     </form>
   );
 }
+
+RegistrationView.propTypes = {
+  onRegistration: PropTypes.func.isRequired,
+};
