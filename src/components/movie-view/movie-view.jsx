@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Card, Col, Container, Row, Button } from "react-bootstrap";
 
 export class MovieView extends React.Component {
 
@@ -7,21 +8,27 @@ export class MovieView extends React.Component {
     const { movie, onBackClick } = this.props;
 
     return (
-      <div className="movie-view">
-        <div className="movie-poster">
-          <img src={movie.ImagePath} />
-        </div>
-        <div className="movie-title">
-          <span className="label">Title: </span>
-          <span className="value">{movie.Title}</span>
-        </div>
-        <div className="movie-description">
-          <span className="label">Description: </span>
-          <span className="value">{movie.Description}</span>
-        </div>
-        <button onClick={() => { onBackClick(null); }}>Back</button>
+      <Container>
+        <Row>
+          <Col>
+            <Card id="movie-view">
+              <Card.Body>
+                <Card.Img id="movie-view-image" variant="top" src={movie.ImagePath} />
+                <Card.Title id="movie-title" className="movie-title">{movie.Title}</Card.Title>
+                <Card.Text id="movie-description" className="movie-description">
+                  {movie.Description}</Card.Text>
+                <Card.Text id="movie-director" className="movie-director">
+                  Director: {movie.Director.Name}</Card.Text>
+                <Card.Text id="movie-genre" className="movie-gerne">
+                  Genre: {movie.Genre.Name}</Card.Text>
 
-      </div>
+              </Card.Body>
+            </Card>
+            <Button id="movie-view-button" onClick={() => { onBackClick(null); }}>Back</Button>
+            <Button id="movie-view-button" onClick={() => { }}>Add to favorites</Button>
+          </Col>
+        </Row>
+      </Container>
     );
   }
 }
