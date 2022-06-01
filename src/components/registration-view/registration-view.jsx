@@ -73,7 +73,7 @@ export function RegistrationView(props) {
                   </Form.Group>
 
                   <button variant="primary" type="submit"
-                    onClick={handleSubmit}>
+                    onClick={handleRegister}>
                     Submit
                   </button>
                 </Form>
@@ -86,6 +86,6 @@ export function RegistrationView(props) {
   );
 }
 
-RegistrationView.propTypes = {
-  onRegistration: PropTypes.func.isRequired,
-};
+// RegistrationView.propTypes = {
+//   onRegistration: PropTypes.func.isRequired,
+// };
