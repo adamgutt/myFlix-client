@@ -5,8 +5,9 @@ import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
 import { LoginView } from '../login-view/login-view';
 import { MovieCard } from '../movie-card/movie-card';
 import { MovieView } from '../movie-view/movie-view';
-// import { DirectorView } from '../director-view/director-view';
-// import { GenreView } from '../genre-view/genre-view';
+import { DirectorView } from '../director-view/director-view';
+import { GenreView } from '../genre-view/genre-view';
+import { ProfileView } from '../profile-view/profile-view';
 import { RegistrationView } from '../registration-view/registration-view';
 
 import Row from 'react-bootstrap/Row';
@@ -115,6 +116,17 @@ export class MainView extends React.Component {
             </Col>
           }
           } />
+
+          <Route path="/users/:username" render={({ match, history }) => {
+            if (!user) return <Col>
+              <LoginView onLoggedIn={user => this.onLoggedIn(user)} />
+            </Col>
+            if (movies.length === 0) return <div className="main-view" />;
+            if (!user) return <Redirect to="/" />
+            return <Col md={8}>
+              <ProfileView movies={movies} user={user === match.params.username} onBackClick={() => history.goBack()} />
+            </Col>
+          }} />
         </Row>
       </Router>
     );

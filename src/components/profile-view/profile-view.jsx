@@ -1,13 +1,13 @@
-import React, { useState, useEffect } from "react";
-import { Button, Col, Row, Card, Container } from "react-bootstrap";
-import { Link } from "react-router-dom";
-import "./profile-view.scss";
-import axios from "axios";
-import UserInfo from './user-info';
-import FavoriteMovies from './favorite-movies';
-import UpdateUser from './update-user';
+import React, { useState, useEffect } from 'react';
+import PropTypes from 'prop-types';
+import axios from 'axios';
 
+import { Button, Col, Container, Row } from 'react-bootstrap';
 
+import { FavoriteMoviesView } from './favorite-movie-view';
+import { UpdateView } from './update-view';
+
+import './profile-view.scss';
 
 export function ProfileView(props) {
   const [user, setUser] = useState(props.user);
@@ -17,7 +17,7 @@ export function ProfileView(props) {
   const token = localStorage.getItem('token');
 
   const getUser = () => {
-    axios.get(`https://movie-api-93167.herokuapp.com/users/${currentUser}`, {
+    axios.get(`https://guttman.herokuapp.com/users/${currentUser}`, {
       headers: { Authorization: `Bearer ${token}` }
     })
       .then(response => {
@@ -32,7 +32,7 @@ export function ProfileView(props) {
   }, [])
 
   const handleDelete = () => {
-    axios.delete(`https://movie-api-93167.herokuapp.com/users/${currentUser}`, {
+    axios.delete(`https://guttman.herokuapp.com/users/${currentUser}`, {
       headers: { Authorization: `Bearer ${token}` }
     })
       .then(() => {
