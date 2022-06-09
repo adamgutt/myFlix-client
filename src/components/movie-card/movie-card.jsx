@@ -13,7 +13,7 @@ export class MovieCard extends React.Component {
   addToFavoriteList(movieId) {
     const currentUser = localStorage.getItem('user');
     const token = localStorage.getItem('token');
-    axios.put(`https://guttman.herokuapp.com/users/${currentUser}/movies/${movieId}`,
+    axios.post(`https://guttman.herokuapp.com/users/${currentUser}/movies/${movieId}`,
       {},
       {
         headers: { Authorization: `Bearer ${token}` }
