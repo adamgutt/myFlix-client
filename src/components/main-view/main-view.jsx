@@ -1,26 +1,36 @@
 import React from 'react';
 import axios from 'axios';
+
+
+import { connect } from 'react-redux';
+
 import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
 
+import { setMovies, setUser } from '../../actions/actions';
+
+import MoviesList from '../movies-list/movies-list';
+
 import { LoginView } from '../login-view/login-view';
-import { MovieCard } from '../movie-card/movie-card';
+// import { MovieCard } from '../movie-card/movie-card';
 import { MovieView } from '../movie-view/movie-view';
 import { DirectorView } from '../director-view/director-view';
 import { GenreView } from '../genre-view/genre-view';
 import { ProfileView } from '../profile-view/profile-view';
 import { RegistrationView } from '../registration-view/registration-view';
 
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import { Container, Col, Row } from 'react-bootstrap';
 
-export class MainView extends React.Component {
+
+
+
+class MainView extends React.Component {
 
   constructor() {
     super();
-    // Initial state is set to null
     this.state = {
       movies: [],
-      user: null
+      user: null,
+      fullUser: {}
     };
   }
 
@@ -39,7 +49,8 @@ export class MainView extends React.Component {
       headers: { Authorization: `Bearer ${token}` }
     })
       .then(response => {
-        // Assign the result to the state
+        // this.props.setMovies(response.data);
+        //Assign result of state
         this.setState({
           movies: response.data
         });
@@ -63,7 +74,9 @@ export class MainView extends React.Component {
   }
 
   render() {
-    const { movies, user } = this.state;
+    let { movies } = this.props;
+    let { user } = this.state;
+
     return (
       <Router>
         <Row className="main-view justify-content-md-center">
@@ -132,3 +145,24 @@ export class MainView extends React.Component {
     );
   }
 }
+
+
+let mapStateToProps = store => {
+  return {
+    movies: store.movies,
+    user: store.user
+  }
+}
+
+const mapDispatchToProps = dispatch => {
+  return {
+    setUser: (user) => {
+      dispatch(setUser(user))
+    },
+    setMovies: (movies) => {
+      dispatch(setMovies(movies))
+    }
+  }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(MainView);
