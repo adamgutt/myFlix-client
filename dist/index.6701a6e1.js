@@ -993,7 +993,7 @@ _reactDomDefault.default.render(/*#__PURE__*/ _reactDefault.default.createElemen
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react":"6TuXu","react-dom":"gkWJK","./index.scss":"jUTZ8","@parcel/transformer-js/src/esmodule-helpers.js":"bXhcJ","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"2Ti9v","./components/main-view/main-view":"2zHas","react-bootstrap/Container":"2PRIq","react/jsx-runtime":"8xIwr","react-redux":"2L0if","./reducers/reducers":"btgQW","redux":"4d0QS"}],"6TuXu":[function(require,module,exports) {
+},{"react":"6TuXu","react-dom":"gkWJK","./index.scss":"jUTZ8","@parcel/transformer-js/src/esmodule-helpers.js":"bXhcJ","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"2Ti9v","./components/main-view/main-view":"2zHas","react-bootstrap/Container":"2PRIq","react/jsx-runtime":"8xIwr","redux":"4d0QS","react-redux":"2L0if","./reducers/reducers":"btgQW"}],"6TuXu":[function(require,module,exports) {
 'use strict';
 module.exports = require('./cjs/react.development.js');
 
@@ -47322,48 +47322,7 @@ MovieCard.propTypes = {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"8xIwr","react":"6TuXu","prop-types":"1tgq3","axios":"iYoWk","react-router-dom":"cpyQW","react-bootstrap/":"h2YVd","./movie-card.scss":"cF5gT","@parcel/transformer-js/src/esmodule-helpers.js":"bXhcJ","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"2Ti9v"}],"cF5gT":[function() {},{}],"btgQW":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _redux = require("redux");
-var _actions = require("../actions/actions");
-function visibilityFilter(state = '', action) {
-    switch(action.type){
-        case _actions.SET_FILTER:
-            return action.value;
-        default:
-            return state;
-    }
-}
-//Contains switch case for SET_MOVIES, ADD_FAVMOVIE, and REM_FAVMOVIE
-function movies(state = [], action) {
-    switch(action.type){
-        case _actions.SET_MOVIES:
-            return action.value;
-        default:
-            return state;
-    }
-}
-function user(state = '', action) {
-    switch(action.type){
-        case _actions.SET_USER:
-            return action.user || localStorage.getItem('user') || '';
-        case _actions.ADD_FAVMOVIE:
-            return action.value;
-        case _actions.REM_FAVMOVIE:
-            return action.value;
-        default:
-            return state;
-    }
-}
-const moviesApp = _redux.combineReducers({
-    visibilityFilter,
-    movies,
-    user
-});
-exports.default = moviesApp;
-
-},{"redux":"4d0QS","../actions/actions":"1Ttfj","@parcel/transformer-js/src/esmodule-helpers.js":"bXhcJ"}],"4d0QS":[function(require,module,exports) {
+},{"react/jsx-runtime":"8xIwr","react":"6TuXu","prop-types":"1tgq3","axios":"iYoWk","react-router-dom":"cpyQW","react-bootstrap/":"h2YVd","./movie-card.scss":"cF5gT","@parcel/transformer-js/src/esmodule-helpers.js":"bXhcJ","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"2Ti9v"}],"cF5gT":[function() {},{}],"4d0QS":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "__DO_NOT_USE__ActionTypes", ()=>ActionTypes
@@ -47941,6 +47900,47 @@ function _defineProperty(obj, key, value) {
 }
 exports.default = _defineProperty;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"bXhcJ"}]},["kEwRg","gOFAa","dLPEP"], "dLPEP", "parcelRequireaec4")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"bXhcJ"}],"btgQW":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _redux = require("redux");
+var _actions = require("../actions/actions");
+function visibilityFilter(state = '', action) {
+    switch(action.type){
+        case _actions.SET_FILTER:
+            return action.value;
+        default:
+            return state;
+    }
+}
+//Contains switch case for SET_MOVIES, ADD_FAVMOVIE, and REM_FAVMOVIE
+function movies(state = [], action) {
+    switch(action.type){
+        case _actions.SET_MOVIES:
+            return action.value;
+        default:
+            return state;
+    }
+}
+function user(state = '', action) {
+    switch(action.type){
+        case _actions.SET_USER:
+            return action.user || localStorage.getItem('user') || '';
+        case _actions.ADD_FAVMOVIE:
+            return action.value;
+        case _actions.REM_FAVMOVIE:
+            return action.value;
+        default:
+            return state;
+    }
+}
+const moviesApp = _redux.combineReducers({
+    visibilityFilter,
+    movies,
+    user
+});
+exports.default = moviesApp;
+
+},{"redux":"4d0QS","../actions/actions":"1Ttfj","@parcel/transformer-js/src/esmodule-helpers.js":"bXhcJ"}]},["kEwRg","gOFAa","dLPEP"], "dLPEP", "parcelRequireaec4")
 
 //# sourceMappingURL=index.6701a6e1.js.map
