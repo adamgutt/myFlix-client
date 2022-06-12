@@ -18,6 +18,8 @@ import { GenreView } from '../genre-view/genre-view';
 import { ProfileView } from '../profile-view/profile-view';
 import { RegistrationView } from '../registration-view/registration-view';
 
+
+
 import { Container, Col, Row } from 'react-bootstrap';
 
 
@@ -37,9 +39,8 @@ class MainView extends React.Component {
   componentDidMount() {
     let accessToken = localStorage.getItem('token');
     if (accessToken !== null) {
-      this.setState({
-        user: localStorage.getItem('user')
-      });
+      const { setUser } = this.props;
+      setUser(localStorage.getItem('user'));
       this.getMovies(accessToken);
     }
   }
