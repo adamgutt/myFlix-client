@@ -10,6 +10,7 @@ import { setMovies, setUser } from '../../actions/actions';
 
 import MoviesList from '../movies-list/movies-list';
 
+import { Navbar } from "../navbar/navbar";
 import { LoginView } from '../login-view/login-view';
 import { MovieCard } from '../movie-card/movie-card';
 import { MovieView } from '../movie-view/movie-view';
@@ -79,6 +80,7 @@ class MainView extends React.Component {
 
     return (
       <Router>
+        <Navbar user={user} />
         <Row className="main-view justify-content-md-center">
           <Route exact path="/" render={() => {
             if (!user) return <Col>

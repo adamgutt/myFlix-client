@@ -53,6 +53,15 @@
 #profile-form #movie-card {
   color: rgb(9, 27, 73);
 }
+.mainNav {
+  margin-bottom: 20px;
+  color: #222;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.nav-items a {
+  text-transform: capitalize;
+}
 .my-flix {
   color: steelblue;
 }
