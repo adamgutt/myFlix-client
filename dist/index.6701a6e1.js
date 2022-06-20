@@ -28360,8 +28360,9 @@ class MainView extends _reactDefault.default.Component {
     componentDidMount() {
         let accessToken = localStorage.getItem('token');
         if (accessToken !== null) {
-            const { setUser  } = this.props;
-            setUser(localStorage.getItem('user'));
+            this.setState({
+                user: localStorage.getItem('user')
+            });
             this.getMovies(accessToken);
         }
     }
@@ -28394,7 +28395,7 @@ class MainView extends _reactDefault.default.Component {
         return(/*#__PURE__*/ _jsxRuntime.jsxs(_reactRouterDom.BrowserRouter, {
             __source: {
                 fileName: "src/components/main-view/main-view.jsx",
-                lineNumber: 82
+                lineNumber: 83
             },
             __self: this,
             children: [
@@ -28402,7 +28403,7 @@ class MainView extends _reactDefault.default.Component {
                     user: user,
                     __source: {
                         fileName: "src/components/main-view/main-view.jsx",
-                        lineNumber: 83
+                        lineNumber: 84
                     },
                     __self: this
                 }),
@@ -28410,7 +28411,7 @@ class MainView extends _reactDefault.default.Component {
                     className: "main-view justify-content-md-center",
                     __source: {
                         fileName: "src/components/main-view/main-view.jsx",
-                        lineNumber: 84
+                        lineNumber: 85
                     },
                     __self: this,
                     children: [
@@ -28436,7 +28437,7 @@ class MainView extends _reactDefault.default.Component {
                             },
                             __source: {
                                 fileName: "src/components/main-view/main-view.jsx",
-                                lineNumber: 85
+                                lineNumber: 86
                             },
                             __self: this
                         }),
@@ -28453,7 +28454,7 @@ class MainView extends _reactDefault.default.Component {
                             },
                             __source: {
                                 fileName: "src/components/main-view/main-view.jsx",
-                                lineNumber: 96
+                                lineNumber: 97
                             },
                             __self: this
                         }),
@@ -28479,7 +28480,7 @@ class MainView extends _reactDefault.default.Component {
                             },
                             __source: {
                                 fileName: "src/components/main-view/main-view.jsx",
-                                lineNumber: 103
+                                lineNumber: 104
                             },
                             __self: this
                         }),
@@ -28505,7 +28506,7 @@ class MainView extends _reactDefault.default.Component {
                             },
                             __source: {
                                 fileName: "src/components/main-view/main-view.jsx",
-                                lineNumber: 113
+                                lineNumber: 114
                             },
                             __self: this
                         }),
@@ -28531,7 +28532,7 @@ class MainView extends _reactDefault.default.Component {
                             },
                             __source: {
                                 fileName: "src/components/main-view/main-view.jsx",
-                                lineNumber: 124
+                                lineNumber: 125
                             },
                             __self: this
                         }),
@@ -28560,7 +28561,7 @@ class MainView extends _reactDefault.default.Component {
                             },
                             __source: {
                                 fileName: "src/components/main-view/main-view.jsx",
-                                lineNumber: 135
+                                lineNumber: 136
                             },
                             __self: this
                         })
