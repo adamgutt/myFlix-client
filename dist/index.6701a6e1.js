@@ -34943,6 +34943,7 @@ class MovieCard extends _reactDefault.default.Component {
                     },
                     __self: this,
                     children: /*#__PURE__*/ _jsxRuntime.jsx(_.Card.Img, {
+                        className: "size",
                         crossOrigin: "true",
                         variant: "top",
                         src: movie.ImagePath,
@@ -47143,7 +47144,7 @@ function FavoriteMoviesView(props) {
     const favoriteMoviesId = favoriteMovies.map((m)=>m._id
     );
     const favoriteMoviesList = movies.filter((m)=>{
-        return favoriteMoviesId.includes(m._id);
+        return favoriteMovies.includes(m._id);
     });
     const handleMovieDelete = (movieId)=>{
         _axiosDefault.default.delete(`https://guttman.herokuapp.com/users/${currentUser}/movies/${movieId}`, {
@@ -47196,6 +47197,7 @@ function FavoriteMoviesView(props) {
                             },
                             __self: this,
                             children: /*#__PURE__*/ _jsxRuntime.jsx(_reactBootstrap.Card.Img, {
+                                crossOrigin: "true",
                                 variant: "top",
                                 src: movie.ImagePath,
                                 __source: {

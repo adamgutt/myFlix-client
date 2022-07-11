@@ -13,7 +13,7 @@ export function FavoriteMoviesView(props) {
   const favoriteMoviesId = favoriteMovies.map(m => m._id)
 
   const favoriteMoviesList = movies.filter(m => {
-    return favoriteMoviesId.includes(m._id)
+    return favoriteMovies.includes(m._id)
   })
 
   const handleMovieDelete = (movieId) => {
@@ -37,7 +37,7 @@ export function FavoriteMoviesView(props) {
             <Col xs={10} sm={8} md={6} lg={4} >
               <Card id="movie-card">
                 <Link to={`/movies/${movie._id}`}>
-                  <Card.Img variant="top" src={movie.ImagePath} />
+                  <Card.Img crossOrigin="true" variant="top" src={movie.ImagePath} />
                 </Link>
                 <Card.Body>
                   <Card.Title>{movie.Title}</Card.Title>
