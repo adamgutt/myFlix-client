@@ -34943,6 +34943,7 @@ class MovieCard extends _reactDefault.default.Component {
                     },
                     __self: this,
                     children: /*#__PURE__*/ _jsxRuntime.jsx(_.Card.Img, {
+                        className: "size",
                         crossOrigin: "true",
                         variant: "top",
                         src: movie.ImagePath,
