@@ -153,7 +153,7 @@ window.$RefreshSig$ = function() {
 
 },{"react-refresh/runtime":"fNmB3"}],"fNmB3":[function(require,module,exports) {
 'use strict';
-module.exports = require('./cjs/react-refresh-runtime.development.js');
+module.exports = require('./cjs/react-refresh-runtime.development.js.js');
 
 },{"./cjs/react-refresh-runtime.development.js":"1CJiQ"}],"1CJiQ":[function(require,module,exports) {
 /** @license React v0.9.0
@@ -995,7 +995,7 @@ _reactDomDefault.default.render(/*#__PURE__*/ _reactDefault.default.createElemen
 }
 },{"react/jsx-runtime":"8xIwr","react":"6TuXu","react-dom":"gkWJK","react-bootstrap/Container":"2PRIq","redux":"4d0QS","react-redux":"2L0if","./reducers/reducers":"btgQW","./components/main-view/main-view":"2zHas","./index.scss":"jUTZ8","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"5V79J"}],"8xIwr":[function(require,module,exports) {
 'use strict';
-module.exports = require('./cjs/react-jsx-runtime.development.js');
+module.exports = require('./cjs/react-jsx-runtime.development.js.js');
 
 },{"./cjs/react-jsx-runtime.development.js":"hw7vv"}],"hw7vv":[function(require,module,exports) {
 /**
@@ -1850,7 +1850,7 @@ module.exports = require('./cjs/react-jsx-runtime.development.js');
 
 },{"react":"6TuXu"}],"6TuXu":[function(require,module,exports) {
 'use strict';
-module.exports = require('./cjs/react.development.js');
+module.exports = require('./cjs/react.development.js.js');
 
 },{"./cjs/react.development.js":"9WG5J"}],"9WG5J":[function(require,module,exports) {
 /**
@@ -3748,7 +3748,7 @@ function checkDCE() {
     // a false positive.
     throw new Error('^_^');
 }
-module.exports = require('./cjs/react-dom.development.js');
+module.exports = require('./cjs/react-dom.development.js.js');
 
 },{"./cjs/react-dom.development.js":"uMwNA"}],"uMwNA":[function(require,module,exports) {
 /**
@@ -24726,7 +24726,7 @@ module.exports = require('./cjs/react-dom.development.js');
 
 },{"react":"6TuXu","scheduler":"lS3J3"}],"lS3J3":[function(require,module,exports) {
 'use strict';
-module.exports = require('./cjs/scheduler.development.js');
+module.exports = require('./cjs/scheduler.development.js.js');
 
 },{"./cjs/scheduler.development.js":"9ljDM"}],"9ljDM":[function(require,module,exports) {
 /**
@@ -25893,7 +25893,7 @@ if (typeof isCrushed.name === 'string' && isCrushed.name !== 'isCrushed') warnin
 },{"@babel/runtime/helpers/esm/objectSpread2":"bSD1u","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"bSD1u":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-var _definePropertyJs = require("./defineProperty.js");
+var _definePropertyJs = require("./defineProperty.js.js");
 var _definePropertyJsDefault = parcelHelpers.interopDefault(_definePropertyJs);
 function ownKeys(object, enumerableOnly) {
     var keys = Object.keys(object);
@@ -26199,7 +26199,7 @@ module.exports = require('./factoryWithTypeCheckers')(ReactIs.isElement, throwOn
 
 },{"react-is":"5wFcP","./factoryWithTypeCheckers":"gMSjX"}],"5wFcP":[function(require,module,exports) {
 'use strict';
-module.exports = require('./cjs/react-is.development.js');
+module.exports = require('./cjs/react-is.development.js.js');
 
 },{"./cjs/react-is.development.js":"dxS2U"}],"dxS2U":[function(require,module,exports) {
 /** @license React v16.13.1
@@ -27610,7 +27610,7 @@ module.exports = hoistNonReactStatics;
 
 },{"react-is":"5wFcP"}],"bCfxJ":[function(require,module,exports) {
 'use strict';
-module.exports = require('./cjs/react-is.development.js');
+module.exports = require('./cjs/react-is.development.js.js');
 
 },{"./cjs/react-is.development.js":"eyUIi"}],"eyUIi":[function(require,module,exports) {
 /** @license React v17.0.2
@@ -32694,7 +32694,7 @@ if (typeof window !== "undefined") {
 },{"@babel/runtime/helpers/esm/inheritsLoose":"eO0be","react":"6TuXu","prop-types":"1tgq3","history":"6R8lq","tiny-warning":"4xDJt","mini-create-react-context":"bwjcK","tiny-invariant":"kiE0c","@babel/runtime/helpers/esm/extends":"bKAu6","path-to-regexp":"6SN7C","react-is":"5wFcP","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3Rubg","hoist-non-react-statics":"jfzb6","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"eO0be":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-var _setPrototypeOfJs = require("./setPrototypeOf.js");
+var _setPrototypeOfJs = require("./setPrototypeOf.js.js");
 var _setPrototypeOfJsDefault = parcelHelpers.interopDefault(_setPrototypeOfJs);
 function _inheritsLoose(subClass, superClass) {
     subClass.prototype = Object.create(superClass.prototype);
@@ -39623,7 +39623,7 @@ var modifierPhases = [
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"jbNRU":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-var _getBoundingClientRectJs = require("./getBoundingClientRect.js"); // Returns the layout rect of an element relative to its offsetParent. Layout
+var _getBoundingClientRectJs = require("./getBoundingClientRect.js.js"); // Returns the layout rect of an element relative to its offsetParent. Layout
 var _getBoundingClientRectJsDefault = parcelHelpers.interopDefault(_getBoundingClientRectJs);
 function getLayoutRect(element) {
     var clientRect = _getBoundingClientRectJsDefault.default(element); // Use the clientRect sizes if it's not been transformed.
@@ -39644,7 +39644,7 @@ exports.default = getLayoutRect;
 },{"./getBoundingClientRect.js":"a0UQf","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"a0UQf":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-var _instanceOfJs = require("./instanceOf.js");
+var _instanceOfJs = require("./instanceOf.js.js");
 var _mathJs = require("../utils/math.js");
 function getBoundingClientRect(element, includeScale) {
     if (includeScale === void 0) includeScale = false;
@@ -39680,7 +39680,7 @@ parcelHelpers.export(exports, "isHTMLElement", ()=>isHTMLElement
 );
 parcelHelpers.export(exports, "isShadowRoot", ()=>isShadowRoot
 );
-var _getWindowJs = require("./getWindow.js");
+var _getWindowJs = require("./getWindow.js.js");
 var _getWindowJsDefault = parcelHelpers.interopDefault(_getWindowJs);
 function isElement(node) {
     var OwnElement = _getWindowJsDefault.default(node).Element;
@@ -39726,7 +39726,7 @@ var round = Math.round;
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"44CRG":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-var _instanceOfJs = require("./instanceOf.js");
+var _instanceOfJs = require("./instanceOf.js.js");
 function contains(parent, child) {
     var rootNode = child.getRootNode && child.getRootNode(); // First, attempt with faster native method
     if (parent.contains(child)) return true;
@@ -39745,16 +39745,16 @@ exports.default = contains;
 },{"./instanceOf.js":"5XVaZ","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"h282o":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-var _getWindowJs = require("./getWindow.js");
+var _getWindowJs = require("./getWindow.js.js");
 var _getWindowJsDefault = parcelHelpers.interopDefault(_getWindowJs);
-var _getNodeNameJs = require("./getNodeName.js");
+var _getNodeNameJs = require("./getNodeName.js.js");
 var _getNodeNameJsDefault = parcelHelpers.interopDefault(_getNodeNameJs);
-var _getComputedStyleJs = require("./getComputedStyle.js");
+var _getComputedStyleJs = require("./getComputedStyle.js.js");
 var _getComputedStyleJsDefault = parcelHelpers.interopDefault(_getComputedStyleJs);
-var _instanceOfJs = require("./instanceOf.js");
-var _isTableElementJs = require("./isTableElement.js");
+var _instanceOfJs = require("./instanceOf.js.js");
+var _isTableElementJs = require("./isTableElement.js.js");
 var _isTableElementJsDefault = parcelHelpers.interopDefault(_isTableElementJs);
-var _getParentNodeJs = require("./getParentNode.js");
+var _getParentNodeJs = require("./getParentNode.js.js");
 var _getParentNodeJsDefault = parcelHelpers.interopDefault(_getParentNodeJs);
 function getTrueOffsetParent(element) {
     if (!_instanceOfJs.isHTMLElement(element) || _getComputedStyleJsDefault.default(element).position === 'fixed') return null;
@@ -39806,7 +39806,7 @@ exports.default = getNodeName;
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"cn2q5":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-var _getWindowJs = require("./getWindow.js");
+var _getWindowJs = require("./getWindow.js.js");
 var _getWindowJsDefault = parcelHelpers.interopDefault(_getWindowJs);
 function getComputedStyle(element) {
     return _getWindowJsDefault.default(element).getComputedStyle(element);
@@ -39816,7 +39816,7 @@ exports.default = getComputedStyle;
 },{"./getWindow.js":"MkPcb","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"a0fpP":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-var _getNodeNameJs = require("./getNodeName.js");
+var _getNodeNameJs = require("./getNodeName.js.js");
 var _getNodeNameJsDefault = parcelHelpers.interopDefault(_getNodeNameJs);
 function isTableElement(element) {
     return [
@@ -39830,11 +39830,11 @@ exports.default = isTableElement;
 },{"./getNodeName.js":"EprJN","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"lehUS":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-var _getNodeNameJs = require("./getNodeName.js");
+var _getNodeNameJs = require("./getNodeName.js.js");
 var _getNodeNameJsDefault = parcelHelpers.interopDefault(_getNodeNameJs);
-var _getDocumentElementJs = require("./getDocumentElement.js");
+var _getDocumentElementJs = require("./getDocumentElement.js.js");
 var _getDocumentElementJsDefault = parcelHelpers.interopDefault(_getDocumentElementJs);
-var _instanceOfJs = require("./instanceOf.js");
+var _instanceOfJs = require("./instanceOf.js.js");
 function getParentNode(element) {
     if (_getNodeNameJsDefault.default(element) === 'html') return element;
     return(// $FlowFixMe[incompatible-return]
@@ -39848,7 +39848,7 @@ exports.default = getParentNode;
 },{"./getNodeName.js":"EprJN","./getDocumentElement.js":"jaH6y","./instanceOf.js":"5XVaZ","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"jaH6y":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-var _instanceOfJs = require("./instanceOf.js");
+var _instanceOfJs = require("./instanceOf.js.js");
 function getDocumentElement(element) {
     // $FlowFixMe[incompatible-return]: assume body is always available
     return ((_instanceOfJs.isElement(element) ? element.ownerDocument : element.document) || window.document).documentElement;
@@ -39873,7 +39873,7 @@ parcelHelpers.export(exports, "within", ()=>within
 );
 parcelHelpers.export(exports, "withinMaxClamp", ()=>withinMaxClamp
 );
-var _mathJs = require("./math.js");
+var _mathJs = require("./math.js.js");
 function within(min, value, max) {
     return _mathJs.max(min, _mathJs.min(value, max));
 }
@@ -39885,7 +39885,7 @@ function withinMaxClamp(min, value, max) {
 },{"./math.js":"gyDDZ","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"kGOSi":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-var _getFreshSideObjectJs = require("./getFreshSideObject.js");
+var _getFreshSideObjectJs = require("./getFreshSideObject.js.js");
 var _getFreshSideObjectJsDefault = parcelHelpers.interopDefault(_getFreshSideObjectJs);
 function mergePaddingObject(paddingObject) {
     return Object.assign({
@@ -40281,15 +40281,15 @@ var _getDocumentElementJs = require("../dom-utils/getDocumentElement.js");
 var _getDocumentElementJsDefault = parcelHelpers.interopDefault(_getDocumentElementJs);
 var _getBoundingClientRectJs = require("../dom-utils/getBoundingClientRect.js");
 var _getBoundingClientRectJsDefault = parcelHelpers.interopDefault(_getBoundingClientRectJs);
-var _computeOffsetsJs = require("./computeOffsets.js");
+var _computeOffsetsJs = require("./computeOffsets.js.js");
 var _computeOffsetsJsDefault = parcelHelpers.interopDefault(_computeOffsetsJs);
-var _rectToClientRectJs = require("./rectToClientRect.js");
+var _rectToClientRectJs = require("./rectToClientRect.js.js");
 var _rectToClientRectJsDefault = parcelHelpers.interopDefault(_rectToClientRectJs);
 var _enumsJs = require("../enums.js");
 var _instanceOfJs = require("../dom-utils/instanceOf.js");
-var _mergePaddingObjectJs = require("./mergePaddingObject.js");
+var _mergePaddingObjectJs = require("./mergePaddingObject.js.js");
 var _mergePaddingObjectJsDefault = parcelHelpers.interopDefault(_mergePaddingObjectJs);
-var _expandToHashMapJs = require("./expandToHashMap.js"); // eslint-disable-next-line import/no-unused-modules
+var _expandToHashMapJs = require("./expandToHashMap.js.js"); // eslint-disable-next-line import/no-unused-modules
 var _expandToHashMapJsDefault = parcelHelpers.interopDefault(_expandToHashMapJs);
 function detectOverflow(state, options) {
     if (options === void 0) options = {
@@ -40334,26 +40334,26 @@ exports.default = detectOverflow;
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _enumsJs = require("../enums.js");
-var _getViewportRectJs = require("./getViewportRect.js");
+var _getViewportRectJs = require("./getViewportRect.js.js");
 var _getViewportRectJsDefault = parcelHelpers.interopDefault(_getViewportRectJs);
-var _getDocumentRectJs = require("./getDocumentRect.js");
+var _getDocumentRectJs = require("./getDocumentRect.js.js");
 var _getDocumentRectJsDefault = parcelHelpers.interopDefault(_getDocumentRectJs);
-var _listScrollParentsJs = require("./listScrollParents.js");
+var _listScrollParentsJs = require("./listScrollParents.js.js");
 var _listScrollParentsJsDefault = parcelHelpers.interopDefault(_listScrollParentsJs);
-var _getOffsetParentJs = require("./getOffsetParent.js");
+var _getOffsetParentJs = require("./getOffsetParent.js.js");
 var _getOffsetParentJsDefault = parcelHelpers.interopDefault(_getOffsetParentJs);
-var _getDocumentElementJs = require("./getDocumentElement.js");
+var _getDocumentElementJs = require("./getDocumentElement.js.js");
 var _getDocumentElementJsDefault = parcelHelpers.interopDefault(_getDocumentElementJs);
-var _getComputedStyleJs = require("./getComputedStyle.js");
+var _getComputedStyleJs = require("./getComputedStyle.js.js");
 var _getComputedStyleJsDefault = parcelHelpers.interopDefault(_getComputedStyleJs);
-var _instanceOfJs = require("./instanceOf.js");
-var _getBoundingClientRectJs = require("./getBoundingClientRect.js");
+var _instanceOfJs = require("./instanceOf.js.js");
+var _getBoundingClientRectJs = require("./getBoundingClientRect.js.js");
 var _getBoundingClientRectJsDefault = parcelHelpers.interopDefault(_getBoundingClientRectJs);
-var _getParentNodeJs = require("./getParentNode.js");
+var _getParentNodeJs = require("./getParentNode.js.js");
 var _getParentNodeJsDefault = parcelHelpers.interopDefault(_getParentNodeJs);
-var _containsJs = require("./contains.js");
+var _containsJs = require("./contains.js.js");
 var _containsJsDefault = parcelHelpers.interopDefault(_containsJs);
-var _getNodeNameJs = require("./getNodeName.js");
+var _getNodeNameJs = require("./getNodeName.js.js");
 var _getNodeNameJsDefault = parcelHelpers.interopDefault(_getNodeNameJs);
 var _rectToClientRectJs = require("../utils/rectToClientRect.js");
 var _rectToClientRectJsDefault = parcelHelpers.interopDefault(_rectToClientRectJs);
@@ -40413,11 +40413,11 @@ exports.default = getClippingRect;
 },{"../enums.js":"kBo2A","./getViewportRect.js":"8kLIR","./getDocumentRect.js":"73Bm7","./listScrollParents.js":"1NLKz","./getOffsetParent.js":"h282o","./getDocumentElement.js":"jaH6y","./getComputedStyle.js":"cn2q5","./instanceOf.js":"5XVaZ","./getBoundingClientRect.js":"a0UQf","./getParentNode.js":"lehUS","./contains.js":"44CRG","./getNodeName.js":"EprJN","../utils/rectToClientRect.js":"3oP12","../utils/math.js":"gyDDZ","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"8kLIR":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-var _getWindowJs = require("./getWindow.js");
+var _getWindowJs = require("./getWindow.js.js");
 var _getWindowJsDefault = parcelHelpers.interopDefault(_getWindowJs);
-var _getDocumentElementJs = require("./getDocumentElement.js");
+var _getDocumentElementJs = require("./getDocumentElement.js.js");
 var _getDocumentElementJsDefault = parcelHelpers.interopDefault(_getDocumentElementJs);
-var _getWindowScrollBarXJs = require("./getWindowScrollBarX.js");
+var _getWindowScrollBarXJs = require("./getWindowScrollBarX.js.js");
 var _getWindowScrollBarXJsDefault = parcelHelpers.interopDefault(_getWindowScrollBarXJs);
 function getViewportRect(element) {
     var win = _getWindowJsDefault.default(element);
@@ -40458,11 +40458,11 @@ exports.default = getViewportRect;
 },{"./getWindow.js":"MkPcb","./getDocumentElement.js":"jaH6y","./getWindowScrollBarX.js":"4PVKs","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"4PVKs":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-var _getBoundingClientRectJs = require("./getBoundingClientRect.js");
+var _getBoundingClientRectJs = require("./getBoundingClientRect.js.js");
 var _getBoundingClientRectJsDefault = parcelHelpers.interopDefault(_getBoundingClientRectJs);
-var _getDocumentElementJs = require("./getDocumentElement.js");
+var _getDocumentElementJs = require("./getDocumentElement.js.js");
 var _getDocumentElementJsDefault = parcelHelpers.interopDefault(_getDocumentElementJs);
-var _getWindowScrollJs = require("./getWindowScroll.js");
+var _getWindowScrollJs = require("./getWindowScroll.js.js");
 var _getWindowScrollJsDefault = parcelHelpers.interopDefault(_getWindowScrollJs);
 function getWindowScrollBarX(element) {
     // If <html> has a CSS width greater than the viewport, then this will be
@@ -40479,7 +40479,7 @@ exports.default = getWindowScrollBarX;
 },{"./getBoundingClientRect.js":"a0UQf","./getDocumentElement.js":"jaH6y","./getWindowScroll.js":"3t560","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"3t560":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-var _getWindowJs = require("./getWindow.js");
+var _getWindowJs = require("./getWindow.js.js");
 var _getWindowJsDefault = parcelHelpers.interopDefault(_getWindowJs);
 function getWindowScroll(node) {
     var win = _getWindowJsDefault.default(node);
@@ -40495,13 +40495,13 @@ exports.default = getWindowScroll;
 },{"./getWindow.js":"MkPcb","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"73Bm7":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-var _getDocumentElementJs = require("./getDocumentElement.js");
+var _getDocumentElementJs = require("./getDocumentElement.js.js");
 var _getDocumentElementJsDefault = parcelHelpers.interopDefault(_getDocumentElementJs);
-var _getComputedStyleJs = require("./getComputedStyle.js");
+var _getComputedStyleJs = require("./getComputedStyle.js.js");
 var _getComputedStyleJsDefault = parcelHelpers.interopDefault(_getComputedStyleJs);
-var _getWindowScrollBarXJs = require("./getWindowScrollBarX.js");
+var _getWindowScrollBarXJs = require("./getWindowScrollBarX.js.js");
 var _getWindowScrollBarXJsDefault = parcelHelpers.interopDefault(_getWindowScrollBarXJs);
-var _getWindowScrollJs = require("./getWindowScroll.js");
+var _getWindowScrollJs = require("./getWindowScroll.js.js");
 var _getWindowScrollJsDefault = parcelHelpers.interopDefault(_getWindowScrollJs);
 var _mathJs = require("../utils/math.js"); // Gets the entire size of the scrollable document area, even extending outside
 function getDocumentRect(element) {
@@ -40526,13 +40526,13 @@ exports.default = getDocumentRect;
 },{"./getDocumentElement.js":"jaH6y","./getComputedStyle.js":"cn2q5","./getWindowScrollBarX.js":"4PVKs","./getWindowScroll.js":"3t560","../utils/math.js":"gyDDZ","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"1NLKz":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-var _getScrollParentJs = require("./getScrollParent.js");
+var _getScrollParentJs = require("./getScrollParent.js.js");
 var _getScrollParentJsDefault = parcelHelpers.interopDefault(_getScrollParentJs);
-var _getParentNodeJs = require("./getParentNode.js");
+var _getParentNodeJs = require("./getParentNode.js.js");
 var _getParentNodeJsDefault = parcelHelpers.interopDefault(_getParentNodeJs);
-var _getWindowJs = require("./getWindow.js");
+var _getWindowJs = require("./getWindow.js.js");
 var _getWindowJsDefault = parcelHelpers.interopDefault(_getWindowJs);
-var _isScrollParentJs = require("./isScrollParent.js");
+var _isScrollParentJs = require("./isScrollParent.js.js");
 var _isScrollParentJsDefault = parcelHelpers.interopDefault(_isScrollParentJs);
 function listScrollParents(element, list) {
     var _element$ownerDocumen;
@@ -40551,13 +40551,13 @@ exports.default = listScrollParents;
 },{"./getScrollParent.js":"lcaNR","./getParentNode.js":"lehUS","./getWindow.js":"MkPcb","./isScrollParent.js":"kZX4x","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"lcaNR":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-var _getParentNodeJs = require("./getParentNode.js");
+var _getParentNodeJs = require("./getParentNode.js.js");
 var _getParentNodeJsDefault = parcelHelpers.interopDefault(_getParentNodeJs);
-var _isScrollParentJs = require("./isScrollParent.js");
+var _isScrollParentJs = require("./isScrollParent.js.js");
 var _isScrollParentJsDefault = parcelHelpers.interopDefault(_isScrollParentJs);
-var _getNodeNameJs = require("./getNodeName.js");
+var _getNodeNameJs = require("./getNodeName.js.js");
 var _getNodeNameJsDefault = parcelHelpers.interopDefault(_getNodeNameJs);
-var _instanceOfJs = require("./instanceOf.js");
+var _instanceOfJs = require("./instanceOf.js.js");
 function getScrollParent(node) {
     if ([
         'html',
@@ -40573,7 +40573,7 @@ exports.default = getScrollParent;
 },{"./getParentNode.js":"lehUS","./isScrollParent.js":"kZX4x","./getNodeName.js":"EprJN","./instanceOf.js":"5XVaZ","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"kZX4x":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-var _getComputedStyleJs = require("./getComputedStyle.js");
+var _getComputedStyleJs = require("./getComputedStyle.js.js");
 var _getComputedStyleJsDefault = parcelHelpers.interopDefault(_getComputedStyleJs);
 function isScrollParent(element) {
     // Firefox wants us to check `-x` and `-y` variations as well
@@ -40599,11 +40599,11 @@ exports.default = rectToClientRect;
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"wx3b2":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-var _getBasePlacementJs = require("./getBasePlacement.js");
+var _getBasePlacementJs = require("./getBasePlacement.js.js");
 var _getBasePlacementJsDefault = parcelHelpers.interopDefault(_getBasePlacementJs);
-var _getVariationJs = require("./getVariation.js");
+var _getVariationJs = require("./getVariation.js.js");
 var _getVariationJsDefault = parcelHelpers.interopDefault(_getVariationJs);
-var _getMainAxisFromPlacementJs = require("./getMainAxisFromPlacement.js");
+var _getMainAxisFromPlacementJs = require("./getMainAxisFromPlacement.js.js");
 var _getMainAxisFromPlacementJsDefault = parcelHelpers.interopDefault(_getMainAxisFromPlacementJs);
 var _enumsJs = require("../enums.js");
 function computeOffsets(_ref) {
@@ -40664,12 +40664,12 @@ exports.default = computeOffsets;
 },{"./getBasePlacement.js":"uyzYw","./getVariation.js":"e7Opv","./getMainAxisFromPlacement.js":"3RRs0","../enums.js":"kBo2A","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"5gagL":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-var _getVariationJs = require("./getVariation.js");
+var _getVariationJs = require("./getVariation.js.js");
 var _getVariationJsDefault = parcelHelpers.interopDefault(_getVariationJs);
 var _enumsJs = require("../enums.js");
-var _detectOverflowJs = require("./detectOverflow.js");
+var _detectOverflowJs = require("./detectOverflow.js.js");
 var _detectOverflowJsDefault = parcelHelpers.interopDefault(_detectOverflowJs);
-var _getBasePlacementJs = require("./getBasePlacement.js");
+var _getBasePlacementJs = require("./getBasePlacement.js.js");
 var _getBasePlacementJsDefault = parcelHelpers.interopDefault(_getBasePlacementJs);
 function computeAutoPlacement(state, options) {
     if (options === void 0) options = {
@@ -40986,7 +40986,7 @@ parcelHelpers.export(exports, "popperGenerator", ()=>_createPopperJs.popperGener
 );
 parcelHelpers.export(exports, "detectOverflow", ()=>_createPopperJs.detectOverflow
 );
-var _createPopperJs = require("./createPopper.js");
+var _createPopperJs = require("./createPopper.js.js");
 
 },{"./createPopper.js":"eWRl5","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"eWRl5":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -40997,32 +40997,32 @@ parcelHelpers.export(exports, "createPopper", ()=>createPopper
 );
 parcelHelpers.export(exports, "detectOverflow", ()=>_detectOverflowJsDefault.default
 );
-var _getCompositeRectJs = require("./dom-utils/getCompositeRect.js");
+var _getCompositeRectJs = require("./dom-utils/getCompositeRect.js.js");
 var _getCompositeRectJsDefault = parcelHelpers.interopDefault(_getCompositeRectJs);
-var _getLayoutRectJs = require("./dom-utils/getLayoutRect.js");
+var _getLayoutRectJs = require("./dom-utils/getLayoutRect.js.js");
 var _getLayoutRectJsDefault = parcelHelpers.interopDefault(_getLayoutRectJs);
-var _listScrollParentsJs = require("./dom-utils/listScrollParents.js");
+var _listScrollParentsJs = require("./dom-utils/listScrollParents.js.js");
 var _listScrollParentsJsDefault = parcelHelpers.interopDefault(_listScrollParentsJs);
-var _getOffsetParentJs = require("./dom-utils/getOffsetParent.js");
+var _getOffsetParentJs = require("./dom-utils/getOffsetParent.js.js");
 var _getOffsetParentJsDefault = parcelHelpers.interopDefault(_getOffsetParentJs);
-var _getComputedStyleJs = require("./dom-utils/getComputedStyle.js");
+var _getComputedStyleJs = require("./dom-utils/getComputedStyle.js.js");
 var _getComputedStyleJsDefault = parcelHelpers.interopDefault(_getComputedStyleJs);
-var _orderModifiersJs = require("./utils/orderModifiers.js");
+var _orderModifiersJs = require("./utils/orderModifiers.js.js");
 var _orderModifiersJsDefault = parcelHelpers.interopDefault(_orderModifiersJs);
-var _debounceJs = require("./utils/debounce.js");
+var _debounceJs = require("./utils/debounce.js.js");
 var _debounceJsDefault = parcelHelpers.interopDefault(_debounceJs);
-var _validateModifiersJs = require("./utils/validateModifiers.js");
+var _validateModifiersJs = require("./utils/validateModifiers.js.js");
 var _validateModifiersJsDefault = parcelHelpers.interopDefault(_validateModifiersJs);
-var _uniqueByJs = require("./utils/uniqueBy.js");
+var _uniqueByJs = require("./utils/uniqueBy.js.js");
 var _uniqueByJsDefault = parcelHelpers.interopDefault(_uniqueByJs);
-var _getBasePlacementJs = require("./utils/getBasePlacement.js");
+var _getBasePlacementJs = require("./utils/getBasePlacement.js.js");
 var _getBasePlacementJsDefault = parcelHelpers.interopDefault(_getBasePlacementJs);
-var _mergeByNameJs = require("./utils/mergeByName.js");
+var _mergeByNameJs = require("./utils/mergeByName.js.js");
 var _mergeByNameJsDefault = parcelHelpers.interopDefault(_mergeByNameJs);
-var _detectOverflowJs = require("./utils/detectOverflow.js");
+var _detectOverflowJs = require("./utils/detectOverflow.js.js");
 var _detectOverflowJsDefault = parcelHelpers.interopDefault(_detectOverflowJs);
-var _instanceOfJs = require("./dom-utils/instanceOf.js");
-var _enumsJs = require("./enums.js");
+var _instanceOfJs = require("./dom-utils/instanceOf.js.js");
+var _enumsJs = require("./enums.js.js");
 var INVALID_ELEMENT_ERROR = 'Popper: Invalid reference or popper argument provided. They must be either a DOM element or virtual element.';
 var INFINITE_LOOP_ERROR = 'Popper: An infinite loop in the modifiers cycle has been detected! The cycle has been interrupted to prevent a browser crash.';
 var DEFAULT_OPTIONS = {
@@ -41217,18 +41217,18 @@ var createPopper = /*#__PURE__*/ popperGenerator(); // eslint-disable-next-line 
 },{"./dom-utils/getCompositeRect.js":"5CDEN","./dom-utils/getLayoutRect.js":"jbNRU","./dom-utils/listScrollParents.js":"1NLKz","./dom-utils/getOffsetParent.js":"h282o","./dom-utils/getComputedStyle.js":"cn2q5","./utils/orderModifiers.js":"V76xq","./utils/debounce.js":"8uhlj","./utils/validateModifiers.js":"c5soS","./utils/uniqueBy.js":"dlAtE","./utils/getBasePlacement.js":"uyzYw","./utils/mergeByName.js":"jINbK","./utils/detectOverflow.js":"8uw8g","./dom-utils/instanceOf.js":"5XVaZ","./enums.js":"kBo2A","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"5CDEN":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-var _getBoundingClientRectJs = require("./getBoundingClientRect.js");
+var _getBoundingClientRectJs = require("./getBoundingClientRect.js.js");
 var _getBoundingClientRectJsDefault = parcelHelpers.interopDefault(_getBoundingClientRectJs);
-var _getNodeScrollJs = require("./getNodeScroll.js");
+var _getNodeScrollJs = require("./getNodeScroll.js.js");
 var _getNodeScrollJsDefault = parcelHelpers.interopDefault(_getNodeScrollJs);
-var _getNodeNameJs = require("./getNodeName.js");
+var _getNodeNameJs = require("./getNodeName.js.js");
 var _getNodeNameJsDefault = parcelHelpers.interopDefault(_getNodeNameJs);
-var _instanceOfJs = require("./instanceOf.js");
-var _getWindowScrollBarXJs = require("./getWindowScrollBarX.js");
+var _instanceOfJs = require("./instanceOf.js.js");
+var _getWindowScrollBarXJs = require("./getWindowScrollBarX.js.js");
 var _getWindowScrollBarXJsDefault = parcelHelpers.interopDefault(_getWindowScrollBarXJs);
-var _getDocumentElementJs = require("./getDocumentElement.js");
+var _getDocumentElementJs = require("./getDocumentElement.js.js");
 var _getDocumentElementJsDefault = parcelHelpers.interopDefault(_getDocumentElementJs);
-var _isScrollParentJs = require("./isScrollParent.js");
+var _isScrollParentJs = require("./isScrollParent.js.js");
 var _isScrollParentJsDefault = parcelHelpers.interopDefault(_isScrollParentJs);
 var _mathJs = require("../utils/math.js");
 function isElementScaled(element) {
@@ -41271,12 +41271,12 @@ exports.default = getCompositeRect;
 },{"./getBoundingClientRect.js":"a0UQf","./getNodeScroll.js":"5rSe9","./getNodeName.js":"EprJN","./instanceOf.js":"5XVaZ","./getWindowScrollBarX.js":"4PVKs","./getDocumentElement.js":"jaH6y","./isScrollParent.js":"kZX4x","../utils/math.js":"gyDDZ","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"5rSe9":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-var _getWindowScrollJs = require("./getWindowScroll.js");
+var _getWindowScrollJs = require("./getWindowScroll.js.js");
 var _getWindowScrollJsDefault = parcelHelpers.interopDefault(_getWindowScrollJs);
-var _getWindowJs = require("./getWindow.js");
+var _getWindowJs = require("./getWindow.js.js");
 var _getWindowJsDefault = parcelHelpers.interopDefault(_getWindowJs);
-var _instanceOfJs = require("./instanceOf.js");
-var _getHTMLElementScrollJs = require("./getHTMLElementScroll.js");
+var _instanceOfJs = require("./instanceOf.js.js");
+var _getHTMLElementScrollJs = require("./getHTMLElementScroll.js.js");
 var _getHTMLElementScrollJsDefault = parcelHelpers.interopDefault(_getHTMLElementScrollJs);
 function getNodeScroll(node) {
     if (node === _getWindowJsDefault.default(node) || !_instanceOfJs.isHTMLElement(node)) return _getWindowScrollJsDefault.default(node);
@@ -41354,7 +41354,7 @@ exports.default = debounce;
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"c5soS":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-var _formatJs = require("./format.js");
+var _formatJs = require("./format.js.js");
 var _formatJsDefault = parcelHelpers.interopDefault(_formatJs);
 var _enumsJs = require("../enums.js");
 var INVALID_MODIFIER_ERROR = 'Popper: modifier "%s" provided an invalid %s property, expected %s but got %s';
